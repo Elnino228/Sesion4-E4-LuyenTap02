@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let tienGuiBanDau=Number(prompt('Nhap so tien gui (trieu dong)'));
+    let laiSuat=Number(prompt('Nhap lai suat (%/nam)'));
+    let thoiHan=Number(prompt('Thoi gian gui (nam'));
+    let soTienSau=tienGuiBanDau;
+    for (let i=1;i<=thoiHan;i++) {
+        soTienSau*=(1+laiSuat/100);
+    }
+    alert('So tien ban nhan dc la '+soTienSau);
+
+</script>
+</body>
+</html>
